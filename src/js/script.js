@@ -140,7 +140,7 @@
 
 // SWITCH CASE 
 
-let time = "Corinthians"
+// let time = "Corinthians"
 
 // switch(time) {
 //     case "Corinthians":
@@ -166,19 +166,32 @@ let time = "Corinthians"
 
 // WHILE
 
-let w = 0
+// let w = 0
 
-while(w <= 10) {
-    console.log("O valor de W é ",w)
-    w++;
-}
+// while(w <= 10) {
+//     console.log("O valor de W é ",w)
+//     w++;
+// }
 
 // do While
 
-let z = 10
+// let z = 10
 
-do {
-    console.log("do while é",z)
-    z++;
-}while(z <= 100)
-    
+// do {
+//     console.log("do while é",z)
+//     z++;
+// }while(z <= 100)
+
+// FUNÇÕES
+
+function saudacao(nome) {
+    // console.log("Seja bem vindo ", nome)
+    console.log(`Seja bem vindo ${nome}`) // strings literais
+}
+saudacao("fiap")
+
+function semaforo() {
+    let sinal = "amarelo"
+    console.log(`O semaforo está ${sinal}`)
+}
+semaforo()
