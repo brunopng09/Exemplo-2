@@ -98,42 +98,87 @@
 
 //IF
 
-let valor = 100
+// let valor = 100
 
-if(valor == 100){
-    console.log("é verdadeiro")
-}
+// if(valor == 100){
+//     console.log("é verdadeiro")
+// }
 
 // IF/ELSE
 
-let valor1 = 120
+// let valor1 = 120
 
-if (valor1 == 100){
-    console.log("valor correto")
-}else{
-    console.log("valor errado")
-}
+// if (valor1 == 100){
+//     console.log("valor correto")
+// }else{
+//     console.log("valor errado")
+// }
 
 //IF/ELSE - encadeado ou aninhado
 
-let idade = 14
+// let idade = 14
 
-if (idade < 14) {
-    console.log("Não pode entrar na balada")
-}
-else if(idade >= 14 && idade < 18) {
-    console.log("Pode entrar e curtir")
-}
-else if (idade > 50) {
-    console.log("Você não tem idade para isso")
-}
-else {
-    console.log("Fica em casa assistindo tv")
-}
+// if (idade < 14) {
+//     console.log("Não pode entrar na balada")
+// }
+// else if(idade >= 14 && idade < 18) {
+//     console.log("Pode entrar e curtir")
+// }
+// else if (idade > 50) {
+//     console.log("Você não tem idade para isso")
+// }
+// else {
+//     console.log("Fica em casa assistindo tv")
+// }
 
 // CONDIÇÃO TERNÁRIA
 
-let valor2 = 300
+// let valor2 = 300
 
-let resultado = valor2 == 300 ? "Certo": "Errado";
-console.log(resultado)
+// let resultado = valor2 == 300 ? "Certo": "Errado";
+// console.log(resultado)
+
+// SWITCH CASE 
+
+let time = "Corinthians"
+
+// switch(time) {
+//     case "Corinthians":
+//         console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Não é um time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+// ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+// FOR
+
+// for (let i=0;i<=10;i++){
+//     console.log("O valor de I é :", i)
+// }
+
+// WHILE
+
+let w = 0
+
+while(w <= 10) {
+    console.log("O valor de W é ",w)
+    w++;
+}
+
+// do While
+
+let z = 10
+
+do {
+    console.log("do while é",z)
+    z++;
+}while(z <= 100)
+    
